@@ -92,10 +92,11 @@ body {
     overflow: hidden;
 }
 
-.foto__img {
+.foto__img{
     width: 100%;
     position: absolute;
     filter: brightness(60%);
+    background-attachment: fixed;
 
 }
 
@@ -112,6 +113,13 @@ body {
 }
 
 /* INÍCIO RESPONSIVO */
+
+@media screen and (max-width: 850px) {
+    .h1__h1 {
+        font-size: 200%;
+    }
+
+}
 
 
 /* SOBRE */
@@ -253,7 +261,7 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-    .box {
+    .contador__box {
         width: 100%;
     }
 
@@ -418,6 +426,16 @@ body {
     position: relative;
 }
 
+@media screen and (max-width: 850px) {
+    .diagnostico__texto__texto {
+        font-size: 85%;
+    }
+    .diagnostico__botao__botao {
+        margin-left: 80px;
+    }
+
+}
+
 .footer {
     background-image: url(img/footer.jpg);
     overflow: hidden;
@@ -453,7 +471,7 @@ body {
     box-sizing: border-box;
     width: 40%;
     float: left;
-    margin-top: 8%;
+    margin-top: 12%;
     margin-left: 5%;
 }
 
@@ -462,17 +480,19 @@ h3 {
     color: white;
     font-size: 90%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 10%;
+    letter-spacing: 2px;
     
 }
 
 p {
     text-align: center center;
     color: white;
-    font-size: 90%;
+    font-size: 95%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 10%;
+    letter-spacing: 1px;
 }
 
 .p__pt {
@@ -517,7 +537,7 @@ p {
 
 
 .acens--footer2 a:hover {
-    color: #00ced1 !important;
+    color: red !important;
     color: #fff;
     font-size: 1.0em;
     text-transform: uppercase !important;
@@ -540,4 +560,52 @@ p {
     transform: scale(1.1);
     filter: brightness(200%);
   }
+}
+
+.p__hover {
+    text-align: center center;
+    color: white;
+    font-size: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    position: relative;
+}
+
+.p__hover:hover {
+    text-align: center center;
+    color: red;
+    font-size: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    position: relative;
+}
+
+.fa-map-marker-alt, .fa-phone, .fa-envelope-open {
+    color: white;
+    float: left;
+}
+
+@media screen and (max-width: 850px) {
+    .footer__box {
+        width: 100%;
+    }
+
+    .footer1__box {
+        width: 100%;
+    }
+    h3 {
+        margin-top: 0px;
+    }
+    .h3__pt {
+        margin-top: 150px;
+    }
+
+    .fa-instagram {
+        margin-left: 40%;
+    }
+
+    .acens--footer2 {
+        margin-left: -30px;
+    }
+
 }

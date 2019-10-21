@@ -204,7 +204,7 @@ body {
     .texto__p {
         margin-left: 20px;
     }
-    
+
     .sobre__botao__botao {
         margin-left: 40%;
     }
@@ -215,8 +215,8 @@ body {
 .contador {
     background-image: url(img/foto3.jpg);
     overflow: hidden;
-    background-repeat: no-repeat;    
-    margin-top: 8%;  
+    background-repeat: no-repeat;
+    margin-top: 8%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -281,7 +281,7 @@ body {
 .atuacao__container {
     width: 100%;
 }
-  
+
 .atuacao__box {
     box-sizing: border-box;
     width: 25%;
@@ -326,6 +326,18 @@ body {
     margin-left: 45%;
     margin-top: 5%;
     position: relative;
+}
+
+.atuacao__botao__botao:hover {
+    border-radius: 30px;
+    border: 1px solid;
+    background: rgb(192, 112, 112);
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
 }
 
 
@@ -439,8 +451,8 @@ body {
 .footer {
     background-image: url(img/footer.jpg);
     overflow: hidden;
-    background-repeat: no-repeat;    
-    margin-top: 8%;  
+    background-repeat: no-repeat;
+    margin-top: 8%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -449,24 +461,24 @@ body {
 .filtro {
     background-color: #011627;
     opacity: 0.9;
-    
+
 }
 
 .footer__container {
     width: 100%;
 }
-  
+
 .footer__box {
     box-sizing: border-box;
     width: 50%;
     float: left;
-    
+
 }
 
 .footer1__container {
     width: 100%;
 }
-  
+
 .footer1__box {
     box-sizing: border-box;
     width: 40%;
@@ -483,7 +495,7 @@ h3 {
     margin-top: 20%;
     margin-left: 10%;
     letter-spacing: 2px;
-    
+
 }
 
 p {
